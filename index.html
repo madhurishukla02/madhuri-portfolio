@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madhuri Shukla | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Madhuri Shukla</h1>
+    <p>2nd Year B.Tech, JECRC University</p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#chatbot">AI Chatbot</a></li>
+      </ul>
+      <button type="button" id="theme-toggle" aria-label="Toggle dark and light mode">
+        Dark / Light Mode
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Hello, I'm Madhuri Shukla</h2>
+      <p>2nd Year B.Tech Student</p>
+      <p>JECRC University</p>
+      <p>I am a B.Tech student learning programming and web development. I work with C, C++, Python, Java, and JavaScript, and I use this portfolio to share my academic work as I continue to grow my skills.</p>
+      <p><a href="#projects">View Projects</a></p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Madhuri Shukla. I am a 2nd Year B.Tech student at JECRC University.</p>
+      <p>I am learning programming and web development through coursework and self-practice. I focus on writing clear code and building small, practical projects that help me apply what I study in class.</p>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <ul class="skill-list">
+        <li class="skill-card">C</li>
+        <li class="skill-card">C++</li>
+        <li class="skill-card">Python</li>
+        <li class="skill-card">Java</li>
+        <li class="skill-card">JavaScript</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <label for="projectSearch">Search projects</label>
+      <input type="search" id="projectSearch" placeholder="Search projects by name or technology...">
+      <div class="project-list">
+        <article class="project-card">
+          <h3 class="project-title">Python Programs Collection</h3>
+          <p class="project-description">A collection of Python programs including Factorial, Fibonacci, and Structure-to-Dictionary conversion.</p>
+          <p class="project-tech"><strong>Technologies:</strong> Python</p>
+          <p>GitHub: <a href="https://github.com/madhurishukla02/python-programs-collection" target="_blank">View Repository</a></p>
+          <p>Live application not available</p>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">Messy Python Code Improvement</h3>
+          <p class="project-description">A messy Python script improved and organized using AI assistance.</p>
+          <p class="project-tech"><strong>Technologies:</strong> Python, Cursor AI</p>
+          <p>GitHub: <a href="https://github.com/madhurishukla02/messy-python-code-improvement" target="_blank">View Repository</a></p>
+          <p>Live application not available</p>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">Bug Fixing Using Cursor AI</h3>
+          <p class="project-description">An incorrect or buggy program identified and corrected using Cursor AI.</p>
+          <p class="project-tech"><strong>Technologies:</strong> Python, Cursor AI</p>
+          <p>GitHub: <a href="https://github.com/madhurishukla02/bug-fixing-using-cursor-ai" target="_blank">View Repository</a></p>
+          <p>Live application not available</p>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">Interactive Quiz Application</h3>
+          <p class="project-description">An interactive quiz application developed as part of my coursework.</p>
+          <p class="project-tech"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+          <p>GitHub: <a href="https://github.com/madhurishukla02/interactive-quiz-application" target="_blank">View Repository</a></p>
+          <p>Live application not available</p>
+        </article>
+
+        <article class="project-card">
+          <h3 class="project-title">Book Reading List Application</h3>
+          <p class="project-description">A reading list application developed as part of my coursework.</p>
+          <p class="project-tech"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+          <p>GitHub: <a href="https://github.com/madhurishukla02/book-reading-list-application" target="_blank">View Repository</a></p>
+          <p>Live application not available</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="weather" class="weather">
+        <h2>Weather</h2>
+    
+        <input type="text" id="cityInput" placeholder="Enter city name">
+    
+        <button id="weatherBtn">Get Weather</button>
+    
+        <div id="weatherResult">
+            <p>Enter a city to see the current weather.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: [email address to be added]</li>
+        <li>Phone: [phone number to be added]</li>
+        <li>GitHub: <a href="https://github.com/madhurishukla02/" target="_blank">madhurishukla02</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Madhuri Shukla</p>
+  </footer>
+
+  <section id="chatbot">
+    <h2>Portfolio Chatbot</h2>
+
+    <div id="chatMessages">
+        <p><strong>Bot:</strong> Hello! Ask me about Madhuri, her skills, or projects.</p>
+    </div>
+
+    <input
+        type="text"
+        id="chatInput"
+        placeholder="Ask me something..."
+    >
+
+    <button id="chatSend">Send</button>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
